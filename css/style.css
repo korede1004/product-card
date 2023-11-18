@@ -18,10 +18,13 @@ body{
 }
 main{
   width: 350px;
+  height: 570px;
   background-color: var(--White);
-  /* display: flex;
-  flex-direction: column; */
-  margin: 50% auto;
+  display: flex;
+  flex-direction: column;
+  /* justify-items: center; */
+  margin: auto;
+  align-items: center;
   /* border: 1px solid black; */
   border-radius: 10px;
 }
