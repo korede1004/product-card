@@ -18,14 +18,8 @@ body{
 }
 main{
   width: 350px;
-  height: 570px;
   background-color: var(--White);
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  margin: 10% auto;
-  align-items: center;
-  /* border: 1px solid black; */
+  margin: 5rem auto;
   border-radius: 10px;
 }
 .desktop-img{
