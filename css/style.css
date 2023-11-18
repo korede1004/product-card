@@ -83,4 +83,6 @@ button{
 }
  footer, a{
   text-align: center;
+  text-decoration: none;
+  color: var(--Dark-grayish-blue);
  }
