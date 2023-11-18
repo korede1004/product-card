@@ -48,6 +48,7 @@ main{
   color: var(--Very-dark-blue);
   font-family: 'Fraunces', serif; 
   font-weight: 700;
+  line-height: 1.9rem;
   font-size: 2.1rem;
   padding-block-end: 1rem;
 }
@@ -55,7 +56,7 @@ main{
   color: var(--Dark-grayish-blue);
   font-size: 0.9rem;
   line-height: 1.3rem;
-  padding-block-end: 1rem;
+  padding-block-end: 0.5rem;
 }
 .price{
   display: flex;
