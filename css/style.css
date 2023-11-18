@@ -15,7 +15,7 @@
 }
 body{
   background-color: var(--Cream);
-  height: 100svh;
+  /* height: 100svh; */
 }
 main{
   width: 350px;
