@@ -1,0 +1,89 @@
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Fraunces', serif; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+body{
+  background-color: var(--Cream);
+  height: 100svh;
+}
+main{
+  width: 350px;
+  margin: 2rem auto;
+  background-color: var(--White);
+  /* display: flex;
+  flex-direction: column; */
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+.desktop-img{
+  display: none;
+}
+.mobile-img img{
+  width: 350px;
+  border-start-start-radius:10px ;
+  border-start-end-radius:10px ;
+}
+.content{
+  margin:0 25px;
+}
+.perfume{
+  color: var(--Dark-grayish-blue);
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  padding-block-start: 0.5rem;
+  padding-block-end: 0.5rem;
+}
+.content h1{
+  color: var(--Very-dark-blue);
+  font-family: 'Fraunces', serif; 
+  font-weight: 700;
+  font-size: 2.1rem;
+  padding-block-end: 1rem;
+}
+.sub-text{
+  color: var(--Dark-grayish-blue);
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  padding-block-end: 1rem;
+}
+.price{
+  display: flex;
+  margin-block-end: 1rem;
+}
+.price1{
+  color: var(--Dark-cyan);
+  font-family: 'Fraunces', serif; 
+  font-weight: 700;
+  font-size: 2.1rem;
+}
+.price2{
+  color: var(--Dark-grayish-blue);
+  font-weight: 500;
+  text-decoration: line-through;
+  padding-block-start: 0.6rem ;
+  padding-inline-start: 1rem ;
+}
+button{
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  color: var(--Cream);
+  background-color: var(--Dark-cyan);
+  border: none;
+  border-radius: 5px;
+  margin-block-end: 20px;
+}
+ footer, a{
+  text-align: center;
+ }
